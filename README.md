@@ -12,8 +12,6 @@ This repo is a **working MVP** of the Inner I architecture:
 - **Signed execution receipts** (tamper‑evident audit chain)
 - **Python SDK** with a single entry point: `inneri.secure_agent_call()`
 
-> Ship this first. Then evolve Vault/JIT secrets, continuous verification, and marketplace API.
-
 ---
 
 ## Quickstart (Docker)
