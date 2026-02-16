@@ -8,8 +8,6 @@ This repo is a **working MVP** of the Inner I architecture:
 - **Signed execution receipts** (tamper‑evident audit chain)
 - **Python SDK** with a single entry point: `inneri.secure_agent_call()`
 
-> Ship this first. Then evolve Vault/JIT secrets, continuous verification, and marketplace API.
-
 ---
 
 ## Quickstart (Docker)
@@ -87,30 +85,6 @@ This is a **starter**:
 
 ---
 
-## License
-MIT
-
-
----
-
-## What you upload to GitHub
-Upload **the entire repo** exactly as-is (root files + folders).
-
-Suggested repo name:
-- `inneri-secure` or `inneri-gateway-secure`
-
-After unzipping:
-```bash
-cd inneri-secure
-git init
-git add .
-git commit -m "Initial commit: Inner I secure gateway (Vault + JWT MVP)"
-git branch -M main
-git remote add origin <YOUR_GITHUB_REPO_URL>
-git push -u origin main
-```
-
----
 
 ## Vault + JWT (how it works)
 - **JWT**: short-lived portable identity for API calls (SDK uses Bearer token).
