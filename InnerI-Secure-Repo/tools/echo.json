@@ -1,0 +1,11 @@
+{
+  "tool_id": "echo",
+  "name": "Echo",
+  "risk": "low",
+  "json_schema": {
+    "type": "object",
+    "properties": {"text": {"type": "string", "maxLength": 2000}},
+    "required": ["text"],
+    "additionalProperties": false
+  }
+}

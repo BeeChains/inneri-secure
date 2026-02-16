@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inneri"
+version = "0.1.0"
+description = "Inner I — zero-trust agent SDK (secure_agent_call)"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["requests>=2.32.0", "cryptography>=43.0.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

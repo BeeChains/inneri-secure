@@ -1,0 +1,10 @@
+{
+  "tool_id": "time_now",
+  "name": "Time Now",
+  "risk": "low",
+  "json_schema": {
+    "type": "object",
+    "properties": {},
+    "additionalProperties": false
+  }
+}

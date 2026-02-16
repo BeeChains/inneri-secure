@@ -1,0 +1,11 @@
+{
+  "tool_id": "math_eval",
+  "name": "Math Eval",
+  "risk": "med",
+  "json_schema": {
+    "type": "object",
+    "properties": {"expression": {"type": "string", "maxLength": 200}},
+    "required": ["expression"],
+    "additionalProperties": false
+  }
+}
